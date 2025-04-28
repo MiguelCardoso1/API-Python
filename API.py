@@ -19,3 +19,10 @@ livros = [
         'Autor' : 'Gillian Flynn'
     },
 ]
+
+#Consultar livros
+@api.route('/livros',methods=['GET'])
+def obter_livros():
+    return jsonify(livros)
+
+api.run(port=5000,host='localhost',debug=True)
