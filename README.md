@@ -6,6 +6,8 @@ Este projeto foi desenvolvido uma API em python utilizando o framework flask ond
 - Python  
 - Flask  
 - VS Code
+- Git
+- Postman
 ## 📡 Endpoints da API
 
 | Método  | URL                 | Descrição                                         |
